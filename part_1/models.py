@@ -8,7 +8,7 @@ class Authors(Document):
     description = StringField()
     meta = {'allow_inheritance': True}
 
-class Quotes():
+class Quotes(Document):
     tags = ListField(StringField(max_length=40))
     author = ReferenceField(Authors, reverse_delete_rule="CASCADE")
     quote = StringField()

@@ -1,4 +1,4 @@
-import web_hw_8.connect_db
+import part_1.connect_db
 
 
 

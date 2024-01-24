@@ -3,7 +3,7 @@ import configparser
 
 
 config = configparser.ConfigParser()
-config.read("web_hw_8\web_hw_8\config.ini")
+config.read("config.ini")
 
 mongo_user = config.get("DB", "USER")
 mongodb_pass = config.get("DB", "PASSWORD")
