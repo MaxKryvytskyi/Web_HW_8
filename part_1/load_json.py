@@ -1,6 +1,7 @@
+import json
 from models import Authors, Quotes
 from connect_db import connect
-import json
+
 
 
 with open("authors.json", "r+", encoding='utf-8') as file:
