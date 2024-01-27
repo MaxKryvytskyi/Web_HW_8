@@ -186,6 +186,20 @@ trio = ["trio (>=0.14)"]
 wmi = ["wmi (>=1.5.1)"]
 
 [[package]]
+name = "faker"
+version = "22.5.1"
+description = "Faker is a Python package that generates fake data for you."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "Faker-22.5.1-py3-none-any.whl", hash = "sha256:4e7bb19c1955bb978bf1d4cb0cf25930e37de0e7dfbc6abd768fd4784d9a9653"},
+    {file = "Faker-22.5.1.tar.gz", hash = "sha256:79cbe3be786789efa05b8c75d7e0ec4efa6ecb786b8fe90eae49c2f8f9cbe31a"},
+]
+
+[package.dependencies]
+python-dateutil = ">=2.4"
+
+[[package]]
 name = "kombu"
 version = "5.3.5"
 description = "Messaging library for Python."
@@ -457,4 +471,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1ed0589c99bd5d0327ea5f66ea75cf4a33642ac5c9d63a5c0ac635446d2023b3"
+content-hash = "3c7b484e26332a640a3213ed9d3601ae8bb2554d4ece2f609514e7f3e989fae3"
