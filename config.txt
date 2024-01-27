@@ -1,6 +1,6 @@
 
 user max_kryvytskyi
-password wCVotjLG96PnrdXl
+password wCVotjLG96PnrdXl 
 
 mongodb+srv://max_kryvytskyi:<password>@cluster0.ozi1uuj.mongodb.net/?retryWrites=true&w=majority
 
