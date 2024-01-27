@@ -9,3 +9,4 @@ class Contact(Document):
     favorites_messages = StringField()
     sent_email = BooleanField(default=False)
     sent_sms = BooleanField(default=False)
+    
