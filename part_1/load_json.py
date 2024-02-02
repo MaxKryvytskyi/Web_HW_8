@@ -7,7 +7,7 @@ from connect_db import connect
 with open("authors.json", "r+", encoding='utf-8') as file:
     authors_data = json.load(file)
 
-with open("qoutes.json", "r+", encoding='utf-8') as file:
+with open("quotes.json", "r+", encoding='utf-8') as file:
     quotes_data = json.load(file)
 
 for author_data in authors_data:

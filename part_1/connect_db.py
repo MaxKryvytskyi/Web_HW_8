@@ -3,7 +3,7 @@ import configparser
 
 
 config = configparser.ConfigParser()
-config.read("config.ini")
+config.read("E:\Git_Files\__Python_GOIT__\__Web_2_0__\Web_HW_9\Load_mongoDB\config.ini")
 
 mongo_user = config.get("DB", "USER")
 mongodb_pass = config.get("DB", "PASSWORD")
